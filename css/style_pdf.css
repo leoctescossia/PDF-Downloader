@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+    transition: 2s;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    font-size: 12pt;
+    align-items: center;
+    text-align: center;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+}
+.cabecalho a:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 3px; 
+    border-color: red;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    padding: 10px ;
+    border-bottom: rgb(182, 179, 179) 1px solid;
+    box-shadow: 2px 1px 2px 3px rgba(0, 0, 0, 0.11);
+}
+.logo, .cabecalho{
+    margin-top: 0.3rem;
+}
+.logo h1{
+    cursor: pointer;
+    font-size: 20pt;
+}
+.logo{
+    border-radius: 2rem;
+    padding: 5px 10px;
+}
+.topo{
+    margin: auto;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 17pt;
+    color: white;
+    margin: auto;
+    background-image: linear-gradient(to top left,#faa038, #f72e78);
+    width: 50%;
+    height: 350px;
+    border-radius: 1rem;
+}
+#pdfs{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    font-size: 14pt;
+}
+.pdf-1{
+    color: #FFFAF0;
+    font-size: 20pt;
+    text-align: center;
+    padding: 1rem;
+}
+.bem_vindo{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+}
+#pdf_downloader{
+    border-bottom-style: solid;
+    border-bottom-width: 3px; 
+    border-color: #ff0404;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    padding: 10px 30px;
+    border-left-style: solid;
+    border-left-width: 3px;
+}
+.link span{
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.link button{
+    width: 140px;
+    height: 50px;
+    border-radius: 2rem;
+    font-size: 12pt;
+    border: #c02b2b 1px solid;
+}
+.link button:hover{
+    transition: 0.5s;
+    background-color: #c02b2b;
+    color: white;
+    cursor: pointer;
+    border: white 1px solid;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20rem;
+    text-align: center;
+    gap: 0.5rem;
+    border-top: rgb(182, 179, 179) 1px solid;
+    height: 100px;
+}
+section{
+    margin: 3rem;
+    color: #FFFAF0;
+    background-color: rgb(250, 87, 58);
+    width: 38%;
+    height: 600px;
+    border-radius: 1rem;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    gap: 1.5rem;
+}
+.sobre span{
+    font-size: 18pt;
+}
+.sobre p{
+    width: 90%;
+    font-size: 11.5pt;
+}
+.sobre img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+#direitos{
+    font-size: 9pt;
+}
+.informacao{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.texto{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.texto h3{
+    font-size: 19pt;
+    text-align: center;
+    width: 100%;
+}
+.texto span{
+    font-size: 12pt;
+    color: red;
+    text-align: justify;
+}
+#border{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-block-color: red;
+    color: white;
+}
+.convertor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    font-size: 18pt;
+}
+.tudo{
+    margin: 10rem auto;
+}
+.convertor button{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 12pt;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.convertor button:hover{
+    transition: 0.6s;
+    border-color: #c02b2b;
+    cursor: pointer;
+}
+.convertor-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+.formato{
+    color: white;
+    background-color: rgb(250, 87, 58);
+    height: 250px;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.mps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mps-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.mps #mp3{
+    padding-inline-end: 0.7rem;
+    
+}
+.formato span{
+    font-size: 20pt;
+}
+.formato button{
+   border-radius: 1rem;
+   width: 150px;
+   height: 40px;
+   border: 2px solid rgb(255, 0, 0);
+   background: none;
+   color: #FFFAF0;
+   text-align: center;
+   font-size: 14pt;
+}
+
+.formato button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #FFFAF0;
+    background-color: rgb(255, 0, 0);
+ }
+.rodape{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    font-size: 11pt;
+}
+.rodape span:hover{
+    opacity: 100%;
+    cursor: pointer;
+    color: #c02b2b;
+    border-bottom: 1px solid red;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+#logo_img{
+    width: 60px;
+    height: auto;
+    color: white;
+}
+
+.tipos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16pt;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.tipos .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.downloads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0.7rem;
+}
+.downloads-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    padding-left: 6rem;
+    margin: auto;
+}
+.downloads #img1{
+    width: 550px;
+    border-radius: 2rem;
+    filter: brightness(70%);
+}
+.downloads-2 #img1{
+    width: 700px;
+    border-radius: 2rem;
+    filter: brightness(70%);
+}
+
+.downloads #img2 , .downloads-2 #img2{
+    width: 350px;
+    border-radius: 2rem;
+    filter: brightness(75%);
+}
+#figcaption{
+    display: inline-block;
+    position: relative;
+}
+#figcaption span{
+    position: absolute;
+    top: 145px;
+    right: 0px;
+    font-size: 40px;
+    color: white;
+    padding-right: 11rem;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption #span2{
+    position: absolute;
+    top: 230px;
+    left: 120px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption1 #span11{
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#figcaption1{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 21rem;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    padding: 10px 10px;
+    width: 250px;
+    background: white;
+    color: black;
+    
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 15pt;
+    border: 1px white solid;
+}
